@@ -53,7 +53,7 @@ function App() {
     <div className="App">
       <h1>Todo App</h1>
       <div className="inputArea">
-        <input value={inputValue} onChange={handleChange} />
+        <input type="text" value={inputValue} onChange={handleChange} />
         <button onClick={handleSubmit}>확인</button>
       </div>  
       <ul>
